@@ -2,7 +2,10 @@
   "name": "cpuutil",
   "displayName": "CPU utilization",
   "description": "Display current CPU utilization",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "repository": "https://github.com/senier/cpuutil",
+  "publisher": "Alexander Senier",
+  "license": "Apache-2.0",
   "engines": {
     "vscode": "^1.71.0"
   },
@@ -12,6 +15,87 @@
   "activationEvents": [
     "onStartupFinished"
   ],
+  "contributes": {
+    "icons": {
+      "meter-000": {
+        "description": "0%",
+        "default": {
+          "fontPath": "./res/Meter.woff2",
+          "fontCharacter": "K"
+        }
+      },
+      "meter-010": {
+        "description": "10%",
+        "default": {
+          "fontPath": "./res/Meter.woff2",
+          "fontCharacter": "J"
+        }
+      },
+      "meter-020": {
+        "description": "20%",
+        "default": {
+          "fontPath": "./res/Meter.woff2",
+          "fontCharacter": "I"
+        }
+      },
+      "meter-030": {
+        "description": "30%",
+        "default": {
+          "fontPath": "./res/Meter.woff2",
+          "fontCharacter": "H"
+        }
+      },
+      "meter-040": {
+        "description": "40%",
+        "default": {
+          "fontPath": "./res/Meter.woff2",
+          "fontCharacter": "G"
+        }
+      },
+      "meter-050": {
+        "description": "50%",
+        "default": {
+          "fontPath": "./res/Meter.woff2",
+          "fontCharacter": "F"
+        }
+      },
+      "meter-060": {
+        "description": "60%",
+        "default": {
+          "fontPath": "./res/Meter.woff2",
+          "fontCharacter": "E"
+        }
+      },
+      "meter-070": {
+        "description": "70%",
+        "default": {
+          "fontPath": "./res/Meter.woff2",
+          "fontCharacter": "D"
+        }
+      },
+      "meter-080": {
+        "description": "80%",
+        "default": {
+          "fontPath": "./res/Meter.woff2",
+          "fontCharacter": "C"
+        }
+      },
+      "meter-090": {
+        "description": "90%",
+        "default": {
+          "fontPath": "./res/Meter.woff2",
+          "fontCharacter": "B"
+        }
+      },
+      "meter-100": {
+        "description": "100%",
+        "default": {
+          "fontPath": "./res/Meter.woff2",
+          "fontCharacter": "A"
+        }
+      }
+    }
+  },
   "main": "./out/extension.js",
   "scripts": {
     "vscode:prepublish": "npm run compile",
