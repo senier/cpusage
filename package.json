@@ -1,9 +1,9 @@
 {
-  "name": "cpuutil",
+  "name": "cpusage",
   "displayName": "CPU utilization",
   "description": "Display current CPU utilization",
   "version": "0.2.0",
-  "repository": "https://github.com/senier/cpuutil",
+  "repository": "https://github.com/senier/cpusage",
   "publisher": "Alexander Senier",
   "license": "Apache-2.0",
   "engines": {
