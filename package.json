@@ -21,35 +21,35 @@
         "description": "0%",
         "default": {
           "fontPath": "./res/Meter.woff2",
-          "fontCharacter": "K"
+          "fontCharacter": "A"
         }
       },
       "meter-010": {
         "description": "10%",
         "default": {
           "fontPath": "./res/Meter.woff2",
-          "fontCharacter": "J"
+          "fontCharacter": "B"
         }
       },
       "meter-020": {
         "description": "20%",
         "default": {
           "fontPath": "./res/Meter.woff2",
-          "fontCharacter": "I"
+          "fontCharacter": "C"
         }
       },
       "meter-030": {
         "description": "30%",
         "default": {
           "fontPath": "./res/Meter.woff2",
-          "fontCharacter": "H"
+          "fontCharacter": "D"
         }
       },
       "meter-040": {
         "description": "40%",
         "default": {
           "fontPath": "./res/Meter.woff2",
-          "fontCharacter": "G"
+          "fontCharacter": "E"
         }
       },
       "meter-050": {
@@ -63,35 +63,35 @@
         "description": "60%",
         "default": {
           "fontPath": "./res/Meter.woff2",
-          "fontCharacter": "E"
+          "fontCharacter": "G"
         }
       },
       "meter-070": {
         "description": "70%",
         "default": {
           "fontPath": "./res/Meter.woff2",
-          "fontCharacter": "D"
+          "fontCharacter": "H"
         }
       },
       "meter-080": {
         "description": "80%",
         "default": {
           "fontPath": "./res/Meter.woff2",
-          "fontCharacter": "C"
+          "fontCharacter": "I"
         }
       },
       "meter-090": {
         "description": "90%",
         "default": {
           "fontPath": "./res/Meter.woff2",
-          "fontCharacter": "B"
+          "fontCharacter": "J"
         }
       },
       "meter-100": {
         "description": "100%",
         "default": {
           "fontPath": "./res/Meter.woff2",
-          "fontCharacter": "A"
+          "fontCharacter": "K"
         }
       }
     }
